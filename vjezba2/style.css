@@ -1,5 +1,6 @@
 body {
-  background: url(/images/pattern.png),
+  background: url(/images/fire.png) center 30%/18% no-repeat fixed,
+    url(/images/pattern.png),
     url(/images/blossom.jpg) center center/cover no-repeat fixed;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +10,6 @@ h1 {
   background-color: rgb(74, 81, 88);
   font-size: 45px;
 }
-.p1 {
+/* .p1 {
   background: url(/images/fire.png) center center/350px no-repeat;
-}
+} */
