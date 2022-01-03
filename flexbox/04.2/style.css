@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.wrapper {
+  border: 1px dashed #666;
+  padding: 1em;
+}
+
+.wrapper div {
+  border: 1px solid #666;
+  padding: 1em;
+  margin: 10px;
+  width: 32%;
+  height: 200px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: stretch;
+}
